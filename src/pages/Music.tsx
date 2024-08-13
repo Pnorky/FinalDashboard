@@ -181,18 +181,19 @@ const Music: FunctionComponent = () => {
       </div>
       <main className="flex-1 flex flex-col items-start justify-start pt-[25px] px-0 pb-0 box-border max-w-[calc(100%_-_328px)] mq1000:max-w-full">
         <section className="self-stretch flex flex-col items-start justify-start gap-[17px] max-w-full text-left text-5xl text-snow font-roboto">
-          <header className="w-[785px] flex flex-row items-start justify-between gap-5 max-w-full text-left text-5xl text-snow font-roboto">
+          <header className="w-[100%] flex flex-row items-start justify-between gap-5 max-w-full text-left text-5xl text-snow font-roboto">
             <button className="cursor-pointer [border:none] py-[5px] px-[45px] bg-gray-300 w-[187px] rounded-lg flex flex-row items-start justify-start box-border hover:bg-darkslategray-100">
               <div className="h-[38px] w-[187px] relative rounded-lg bg-gray-300 hidden" />
               <a className="[text-decoration:none] relative text-5xl tracking-[-0.01em] font-semibold font-roboto text-snow text-left inline-block min-w-[81px] z-[1]">
                 Albums
               </a>
             </button>
-            <div className="rounded-lg bg-gray-300 flex flex-row items-start justify-start py-[5px] pl-2 pr-1.5 whitespace-nowrap">
-              <div className="h-[38px] w-[180px] relative rounded-lg bg-gray-300 hidden" />
-              <a className="[text-decoration:none] relative tracking-[-0.01em] leading-[29px] font-semibold text-[inherit] z-[1]">
-                Popular Singles
-              </a>
+            <div className=" items-start justify-start   whitespace-nowrap">
+              <div className=" rounded-lg bg-gray-300 ml-[-700px] py-[5px] pl-2 pr-1.5 flex flex-row  w-fit">
+                <a className=" [text-decoration:none]  relative tracking-[-0.01em] leading-[29px] font-semibold text-[inherit] z-[1]">
+                  Popular Singles
+                </a>
+              </div>
             </div>
           </header>
           <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-32 max-w-full mq450:gap-4 mq725:gap-8 mq1050:gap-16">
